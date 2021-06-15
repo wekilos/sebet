@@ -1,0 +1,126 @@
+.sebet_location{
+    width: 1200px;
+    margin: 0px auto 30px;
+
+}
+
+.sebet_page{
+    width: 1200px;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.sebet_page>.sebet_cards{
+    width: 70%;
+}
+
+.sebet_page>.sebet_hasap{
+    width: 255px;
+}
+
+.sebet_page>.sebet_hasap>h2{
+    font-size: 26px;
+    text-align: left;
+    font-weight: 450;
+    line-height: 32x;
+    color:#373A40 ;
+}
+
+.sebet_page>.sebet_hasap>h5{
+    text-align: left;
+    margin-top: 15px;
+    font-size:20px;
+    color: rgba(104, 109, 118, 1); 
+    line-height: 25px;
+    font-weight: 450;
+}
+
+.sebet_page>.sebet_hasap>h3{
+    text-align: left;
+    font-weight: 450;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FF0000;
+    margin-top: -5px;
+}
+
+.sebet_page>.sebet_hasap button{
+    color:#fff ;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    height: 50px;
+    width: 251px;
+    border: none;
+    background: #FF0000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sebet_page>.sebet_hasap button:hover{
+    background-color: #e20404;
+}
+
+
+
+
+@media screen and (max-width:1201px) {
+    .sebet_page{
+        width:95%;
+        margin: 0 auto;
+    }
+    .sebet_location{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media screen and (max-width:1000px) {
+    .sebet_page>.sebet_cards{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .sebet_location{
+        width: 95%;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+
+    .sebet_page>.sebet_hasap{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .sebet_page>.sebet_hasap>h2{
+       display: none;
+    }
+    
+    .sebet_page>.sebet_hasap>h5{
+        text-align: left;
+        margin-top: 15px;
+        font-size:16px;
+        line-height: 19.6px;
+    }
+    
+    .sebet_page>.sebet_hasap>h3{
+        text-align: left;
+        font-size: 20px;
+        line-height: 24.5px;
+        margin-top: 10px;
+    }
+    
+    .sebet_page>.sebet_hasap>button{
+        font-size: 16px;
+        line-height: 20px;
+        height: 40px;
+        width: 100%;
+    }
+    
+
+}

@@ -1,0 +1,36 @@
+.location{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+    display: inline-flex;
+    justify-content: flex-start ;
+}
+
+.location>h3,.location>a{
+    margin-right: 20px;
+    font-size: 20px;
+    line-height: 24.5px;
+    color: #686D76;
+}
+@media screen and (max-width:1201px) {
+    .location{
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px) {
+    .main_content{
+        margin: 15px 0 10px 0;
+    }
+     .location{
+         margin-top: 0;
+     }
+    .location>a{
+       font-size: 14px;
+       margin-right: 15px;
+    }
+    .location>h3{
+        font-size: 14px;
+        margin-right: 15px;
+    }
+}

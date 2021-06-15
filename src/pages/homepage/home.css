@@ -1,0 +1,257 @@
+.main_content{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.home-carousel {
+  width: 1200px;
+  height: 400px;
+  margin: 10px auto;
+  background-color: red;
+}
+.contentStyle {
+  height: 400px !important;
+}
+
+.hLocation {
+  width: 1200px;
+  margin: 0;
+  margin-top: 15px;
+  padding: 0;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.hLocation > h3 >a{
+  font-size: 20px;
+  font-weight: 450;
+  line-height: 24.5px;
+  color: #686d76;
+  display: flex;
+}
+
+.hLocation > h4 >a{
+  display: flex;
+  width: max-content;
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 19.6px;
+  color: #ff0000;
+}
+.hLocation > h4 >a> img {
+  width: 22px;
+  height: 22px;
+  margin-left: 8px;
+}
+
+.home_location{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.product_details{
+  width: 1200px;
+  margin: 30px auto 0;
+}
+.product_details>h1{
+  font-family: "Avenir Next Cyr";
+  text-align: left;
+  font: 20px;
+  margin-top: 20px;
+  /* margin-bottom: 10px; */
+  line-height: 24.5px;
+  font-weight: 450;
+  color: rgba(104, 109, 118, 1);
+}
+
+.cards {
+  width: 1200px;
+  margin: -10px auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: -10px;
+  padding-left: -10px;
+}
+
+.cards-container{
+  width: 1200px;
+  margin: 20px auto;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: auto auto auto auto;
+  background-color: inherit;
+}
+.card_item{
+  /* background-color: lawngreen; */
+}
+
+@media screen and (max-width:1201px) {
+  .home-carousel{
+    width: 95%;
+  }
+  .hLocation{
+    width: 95%;
+  }
+  .home_location{
+    width: 95%;
+  }
+  .product_details{
+    width: 95%;
+    margin: 30px auto 0;
+}
+  .cards{
+    width: 95%;
+  }
+  .cards-container{
+    width: 95%;
+  }
+
+  
+}
+@media screen and (max-width:1000px) {
+  .home-carousel{
+    height: 300px;
+    margin:10px auto 0 auto;
+  }
+  .contentStyle {
+    width: 100%;
+    height: 300px !important;
+  }
+  
+  
+}
+
+@media screen and (max-width:950px) {
+  .cards-container{
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto auto;
+  }
+}
+@media screen and (max-width:800px) {
+  .home-carousel{
+    height: 200px;
+    margin:0px auto 0 auto;
+  }
+  .contentStyle {
+    width: 100%;
+    height: 200px !important;
+  }
+  
+  
+}
+@media screen and (max-width:700px) {
+  .cards-container{
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto ;
+  }
+}
+
+@media screen and (max-width:590px) {
+  .cards-container{
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media screen and (max-width:520px) {
+  .cards-container{
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width:420px) {
+  .cards-container{
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width:376px) {
+  .cards-container{
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width:330px) {
+  .cards-container{
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home-carousel {
+    height: 116px;
+    width: 95%;
+    margin: 0 auto 0 auto;
+  }
+  .contentStyle {
+    width: 100%;
+    height: 116px !important;
+    margin: auto;
+  }
+  .hLocation {
+    width: 95%;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    display: inline-flex;
+    justify-content: space-between;
+  }
+  .hLocation > h3 {
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 19.6px;
+    color: #686d76;
+    display: flex;
+  }
+
+  .hLocation > h4 {
+    display: flex;
+    width: max-content;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 17.15px;
+    color: #ff0000;
+  }
+  .hLocation > h4 > img {
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    margin-top: 3.7px;
+  }
+
+  .product_details>h1{
+    margin-top: 80px;
+    margin-bottom: -10px;
+}
+ 
+  .cards {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: -15px;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 337px) {
+  .cards{
+    width: 100%;
+  }
+  
+}
+
+
+
+
+
+

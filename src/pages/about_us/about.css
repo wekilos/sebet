@@ -1,0 +1,30 @@
+.about{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.about>p{
+    font-size: 20px;
+    color: rgba(55, 58, 64, 1);
+    text-align: left;
+}
+.about>div{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:1200px) {
+
+    .about{
+        width: 95%;
+    }
+   
+}
+
+@media screen and (max-width:500px) {
+    .about>div{
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    
+}
+

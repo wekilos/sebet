@@ -1,0 +1,14 @@
+.profile-page{
+    width: 100%;
+}
+
+@media screen and (max-width:1201px) {
+    .profile-page{
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+}
+
+
+

@@ -1,0 +1,192 @@
+
+
+
+.main_content{
+    margin: 35px 0 10px 0;
+}
+.location{
+    width: 1200px;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+.location>h3,.location>a{
+    margin-right: 20px;
+    font-size: 20px;
+    line-height: 24.5px;
+    color: #686D76;
+}
+
+.filters{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.filters > .ant-select:not(.ant-select-customize-input) .ant-select-selector{
+    /* max-width: 20%; */
+    display: flex;
+    height: 50px;
+    padding-top: 10px;
+    background-color: #E6E6E6;
+    border-radius: 5px;
+    background-image: url("../../img/header/filter.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5%;
+    padding-left: 55px;
+}
+.filters > .ant-select:not(.ant-select-customize-input):first-child .ant-select-selector{
+    background-image: url("../../img/header/brend.svg");
+}
+.filters > .ant-select{
+    font-family:'Avenir Next Cyr';
+    text-align: left;
+    font-size: 18px;
+    line-height : 22.05px;
+    font-weight: 450;
+    color: #686D76;
+    width:35rem;
+}
+.product_details{
+    width: 1200px;
+    margin: 30px auto 0;
+}
+.product_details>h1{
+    font-family: "Avenir Next Cyr";
+    text-align: left;
+    font: 20px;
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+    line-height: 24.5px;
+    font-weight: 450;
+    color: rgba(104, 109, 118, 1);
+}
+
+
+.cards{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards-container{
+    width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    background-color: inherit;
+  }
+  .card_item{
+    /* background-color: lawngreen; */
+  }
+
+@media screen and (max-width:1201px) {
+    .location{
+      width: 95%;
+    }
+    
+    .filters{
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .cards{
+      width: 95%;
+    }
+    .product_details{
+        width: 95%;
+        margin: 30px auto 0;
+    }
+    .cards-container{
+        width: 95%;
+      }
+    
+  }
+
+  @media screen and (max-width:950px) {
+    .cards-container{
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+      grid-template-columns: auto auto auto;
+    }
+  }
+
+  @media screen and (max-width:700px) {
+    .cards-container{
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+      grid-template-columns: auto auto ;
+    }
+  }
+  
+  @media screen and (max-width:590px) {
+    .cards-container{
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+      grid-template-columns: auto auto auto;
+    }
+  }
+  
+  @media screen and (max-width:520px) {
+    .cards-container{
+      grid-column-gap: 25px;
+      grid-row-gap: 25px;
+      grid-template-columns: auto auto;
+    }
+  }
+  
+  @media screen and (max-width:420px) {
+    .cards-container{
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+      grid-template-columns: auto auto;
+    }
+  }
+  @media screen and (max-width:376px) {
+    .cards-container{
+      grid-column-gap: 15px;
+      grid-row-gap: 15px;
+      grid-template-columns: auto auto;
+    }
+  }
+  @media screen and (max-width:330px) {
+    .cards-container{
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+      grid-template-columns: auto auto;
+    }
+  }
+
+
+  @media screen and (max-width:500px) {
+    .main_content{
+        margin: 15px 0 10px 0;
+    }
+     
+    .location>a{
+       font-size: 14px;
+       margin-right: 15px;
+    }
+    .location>h3{
+        font-size: 14px;
+        margin-right: 15px;
+    }
+    .product_details>h1{
+        margin-top: 80px;
+        margin-bottom: -10px;
+    }
+    .filters > .ant-select:not(.ant-select-customize-input) .ant-select-selector{
+        padding-left: 35px;
+        background-size: 15px;
+    }
+    .filters>.ant-select-single.ant-select-show-arrow .ant-select-selection-item, .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder{
+        font-size: 14px;
+    }
+      
+  }

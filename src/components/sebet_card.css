@@ -1,0 +1,281 @@
+.sebet_card{
+    width:100% ;
+    height: 150px;
+    display: inline-flex;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    
+    margin-bottom: 15px;
+}
+
+.sebet_card > img{
+    height: 150px;
+    width: 152.67px;
+    border-radius: 5px 0px 0px 5px
+}
+
+.sebet_card>.all{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sebet_card> .all> .details{
+    height: 150px;
+}
+
+.sebet_card>.all>.details>h3{
+    margin-top: 17px;
+    margin-left: 20px;
+    text-align: left;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 17px;
+    color: #686D76;
+}
+.sebet_card>.all>.details>h2{
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(55, 58, 64, 1);
+    margin-top: 15px;
+}
+
+.mobile-all{
+    display: none;
+}
+
+#mobile-buttons{
+    display: none;
+}
+
+.sebet_card>.all>.buttons{
+    display: inline-flex;
+    height:39px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.sebet_card>.all>.buttons>.inc_dec_button{
+    display: inline-flex;
+    width: 120px;
+    height: 39px;
+    background: #fff;
+    border-radius: 5px;
+    border: 0.5px solid rgba(7, 26, 82, 0.2);
+}
+
+.sebet_card>.all>.buttons>.inc_dec_button>button{
+    width:40px ;
+    height: 39;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #ff0000;
+    cursor: pointer;
+}
+.sebet_card>.all>.buttons>.inc_dec_button>h2{
+    border-left:  0.5px solid rgba(7, 26, 82, 0.2);
+    border-right:  0.5px solid rgba(7, 26, 82, 0.2);
+    width: 40px;
+    height: 39px;
+    color: rgba(104, 109, 118, 1);
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+
+.sebet_card>.all>.buttons>h1{
+    width: 100px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FF0000;
+    margin: auto 20px;
+}
+
+.sebet_card>.all>.buttons>button{
+    font-size: 20px;
+    color: #686D76;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+@media screen and (max-width:777px) {
+
+    .sebet_card{
+        height: 174px;
+        display: block;
+        padding: 0;
+    }
+    
+    .sebet_card>#mobile-all{
+        padding: 0;
+        display: inline-flex;
+        width: 100%;
+        /* margin-top: -22px; */
+        height: 125px;
+    }
+
+    .sebet_card >.mobile-all> img{
+        display: block;
+        height: 125px;
+        width: 127.22px;
+        border-radius: 5px 0px 0px 0px;
+        margin-top: 0;
+       }
+
+    .sebet_card> .mobile-all> .details{
+        height: 130px;
+        width: fit-content;
+    }
+    
+    .sebet_card>.mobile-all>.details>h3{
+        margin-top: 9px;
+        margin-left: 17px;
+        text-align: left;
+        font-weight: 450;
+        font-size: 11px;
+        line-height: 13px;
+        color: #686D76;
+    }
+    .sebet_card>.mobile-all>.details>h2{
+        text-align: left;
+        margin-left: 17px;
+        font-weight: 450;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(55, 58, 64, 1);
+        margin-top: 19px;
+    }
+
+    #mobile-buttons{
+        display: inline-flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 19px;
+        height:39px;
+
+    }
+
+    .sebet_card>.all{
+        display: none;
+        width: 0;
+        height: 0;
+    }
+    .all>.details{
+        display: none;
+    }
+    .sebet_card>img{
+        display: none;
+    }
+
+    #buttons{
+        display: none;
+    }
+    
+    .sebet_card>.mobile-buttons>.inc_dec_button{
+        display: inline-flex;
+        width: 120px;
+        height: 39px;
+        background: #fff;
+        border-radius: 5px;
+        border: 0.5px solid rgba(7, 26, 82, 0.2);
+    }
+    
+    .sebet_card>.mobile-buttons>.inc_dec_button>button{
+        width:40px ;
+        height: 39;
+        border: none;
+        border-radius: 5px;
+        background-color: #fff;
+        font-size: 16px;
+        color: #ff0000;
+    }
+    .sebet_card>.mobile-buttons>.inc_dec_button>h2{
+        border-left:  0.5px solid rgba(7, 26, 82, 0.2);
+        border-right:  0.5px solid rgba(7, 26, 82, 0.2);
+        width: 40px;
+        height: 39px;
+        color: rgba(104, 109, 118, 1);
+        padding-top: 5px;
+        font-size: 18px;
+    }
+    
+    
+    .sebet_card>.mobile-buttons>h1{
+        width: 100px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FF0000;
+        margin: auto 20px;
+    }
+    
+    .sebet_card>.mobile-buttons>button{
+        font-size: 20px;
+        color: #686D76;
+        border: none;
+        background-color: inherit;
+    }
+    
+}
+
+@media screen and (max-width:777px) {
+
+    
+    .sebet_card>#mobile-buttons{
+        width: 90%;
+        justify-content: space-between;
+        height: 30.55px;
+    }
+    
+    .sebet_card>#mobile-buttons>.inc_dec_button{
+        width: 94px;
+        height: 30.55px;
+        border: 0.5px solid rgba(7, 26, 82, 0.2);
+    }
+    
+    .sebet_card>#mobile-buttons>.inc_dec_button>button{
+        width:29.77px ;
+        height: 30.55px;
+        font-size: 14px;
+        color: #ff0000;
+        border-radius: none;
+        border-bottom: 0.5px solid rgba(7, 26, 82, 0.2);
+    }
+    .sebet_card>#mobile-buttons>.inc_dec_button>h2{
+        border:none;
+        border-left:  0.5px solid rgba(7, 26, 82, 0.2);
+        border-right:  0.5px solid rgba(7, 26, 82, 0.2);
+        width: 34.46px;
+        height: 30.55px;
+        color: rgba(104, 109, 118, 1);
+        padding-top: 5px;
+        font-size: 14px;
+    }
+    
+    
+    .sebet_card>#mobile-buttons>h1{
+        width: 100px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19.6px;
+        color: #FF0000;
+    }
+    
+    .sebet_card>#mobile-buttons>button{
+        font-size: 16px;
+    }
+    
+}
+
+
