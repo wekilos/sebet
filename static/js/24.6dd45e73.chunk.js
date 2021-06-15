@@ -1,0 +1,2 @@
+(this.webpackJsonpsebet=this.webpackJsonpsebet||[]).push([[24],{47:function(t,e,s){"use strict";s.r(e);s(0);var a=s(182),p=s(185),i=s(1);e.default=function(){return Object(i.jsx)(a.a,{status:"404",title:"404",subTitle:"Sahypa tapylmady",extra:Object(i.jsx)(p.a,{type:"primary",children:"Bas shypa"})})}}}]);
+//# sourceMappingURL=24.6dd45e73.chunk.js.map

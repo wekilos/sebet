@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/routes/style.css"],"names":[],"mappings":"AAAA,cACE,qBAAsB,CAEtB,SAAU,CACV,eAAgB,CAChB,UAAW,CACX,qBAAuB,CACvB,gBACF","file":"23.ac80a87d.chunk.css","sourcesContent":[".main_content {\n  background-color: #fff;\n  /* margin: 0; */\n  padding: 0;\n  margin-top: 10px;\n  width: 100%;\n  height: 100% !important;\n  min-height: 100vh;\n}\n"]}
