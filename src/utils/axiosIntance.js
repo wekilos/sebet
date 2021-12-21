@@ -4,7 +4,7 @@ import { token} from './token'
  const BASE_URL = 'http://localhost:1234'
 const axiosInstance = axios.create({
     baseURL: BASE_URL,
-    timeout: 10000,
+    timeout: 100000,
   
     headers:{
        Authorization: 'Bearer ' + token(),
